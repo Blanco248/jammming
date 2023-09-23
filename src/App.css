@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  text-Align: center;
+  margin-top: 20px;
+};
+
+.yes {
+  display: flex; /* Use flexbox */
+  flex-direction: row; /* Arrange children horizontally */
+}
+
+
+
+.results-container {
+  /* You can adjust flex properties for fine-tuning the layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  justify-content: center;
+}
