@@ -1,14 +1,15 @@
 import React from "react";
+import "./SearchBar.css"
 
-
-
-export default function SearchBar() {
-    return (
-        <>
-           <form>        
-                <input id="search" defaultValue="Enter A Song Title"type="text" />
-                <button value="Submit">Search</button>
-           </form>
-        </>
-    )
+class SearchBar extends React.Component {
+    render () {
+        return (    
+          <div className="SearchBar">
+            <input placeholder="Enter A Song, Album, or Artist" />
+            <button className="SearchButton">SEARCH</button> 
+          </div>
+        )
+    }
 }
+
+export default SearchBar
